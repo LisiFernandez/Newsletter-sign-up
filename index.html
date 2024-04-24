@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="subscribing.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main class="container">
+        <div class="container-img-img">
+            <div class="container-filho1">            
+                <section class="container-jornal"> 
+                    <div class="div-titulo">
+                        <h1>Stay update!</h1>
+                        <h2>join 60,000+ product managers receiving monthly updates on:</h2>
+                    </div>
+                    <div class="div-jornal">
+                        <p class="p-texto">product discovery and building what matters</p>
+                        <img class="verificacao-img" src="./imagens/icon-list.svg" alt="Imagem ilustrativa check list">
+                    </div>
+                    <div class="div-jornal">
+                        <p class="p-texto"> Measuring to ensure updates are a success</p>
+                        <img class="verificacao-img" src="./imagens/icon-list.svg" alt="Imagem ilustrativa check list">
+                    </div>
+                    <div class="div-jornal">
+                        <p class="p-texto"> and much more!</p>
+                        <img class="verificacao-img" src="./imagens/icon-list.svg" alt="Imagem ilustrativa check list">
+                    </div>
+                </section>
+                <section>
+                    <form  action="https://api.staticforms.xyz/submit" method="post" onsubmit="preencherEmail()">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" nome = "email" placeholder="Digite seu email" autocomplete="off" required>
+                        <button  type="submit">Subscribing to monthly newsletter</button>
+                        <input type="hidden" id="hiddenEmail" name="hiddenEmail" value="">
+                        <input type="hidden" name="accessKey" value="c01d458a-7a18-4f4a-92e6-1d8afd5cb83d">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/subscribing.html">
+                    </form> 
+                
+                        
+                </section>
+            </div>
+            <img class="img" src="./imagens/illustration-sign-up-desktop.svg" alt="">
+
+        </div>
+    </main>
+
+</body>
+</html>
